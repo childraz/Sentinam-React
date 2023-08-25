@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -123,10 +122,10 @@ const Hem = (props) => {
                 </div>
                 <div className="hem-btn-group">
                   <button className="button">
-                    <Link to="/bestll" className="hem-navlink">
+                    <span className="hem-text19">
                       <span>Beställ</span>
                       <br></br>
-                    </Link>
+                    </span>
                   </button>
                 </div>
               </div>
@@ -140,27 +139,27 @@ const Hem = (props) => {
           </div>
           <div className="hem-banner">
             <div className="hem-container05">
-              <h3 className="hem-text21">
-                <span className="hem-text22 Heading-3">SENTINAM</span>
+              <h3 className="hem-text22">
+                <span className="hem-text23 Heading-3">SENTINAM</span>
                 <br></br>
               </h3>
-              <span className="hem-text24">
-                <span>PWO</span>
+              <span className="hem-text25">
+                <span>fitness</span>
                 <br></br>
               </span>
             </div>
           </div>
           <div className="hem-container06 max-width-container">
             <div className="hem-container07">
-              <span className="hem-text27">
-                <span className="hem-text28">Sentinam</span>
+              <span className="hem-text28">
+                <span className="hem-text29">Sentinam</span>
                 <span>
                   {' '}
                   är ett egenföretag med fokus inom, den svenska fitness
                   industrin,
                 </span>
                 <br></br>
-                <span>Uppstartat i Sverige, år 2023.</span>
+                <span>Uppstartat som Uf företag i Sverige, år 2023.</span>
                 <br></br>
                 <span>
                   Vi på vårt företag är dedikerade till att leverera de bästa
@@ -169,10 +168,10 @@ const Hem = (props) => {
                   effekt och är välstuderade för att säkerställa att våra kunder
                   får de bästa resultaten.
                 </span>
-                <br className="hem-text34"></br>
+                <br className="hem-text35"></br>
                 <span>-</span>
                 <br></br>
-                <br className="hem-text37"></br>
+                <br className="hem-text38"></br>
                 <br></br>
                 <span>
                   Vi är stolta över att erbjuda en av de bästa Pwo:erna på den
@@ -182,10 +181,10 @@ const Hem = (props) => {
                   högkvalitativa kosttillskott utan att behöva betala överdrivna
                   priser.
                 </span>
-                <br className="hem-text40"></br>
+                <br className="hem-text41"></br>
                 <span>-</span>
                 <br></br>
-                <br className="hem-text43"></br>
+                <br className="hem-text44"></br>
                 <br></br>
                 <span>
                   Vår passion för att leverera enastående kosttillskott driver
@@ -211,47 +210,46 @@ const Hem = (props) => {
         <div className="max-width-container">
           <footer className="hem-footer1">
             <div className="hem-container08">
-              <h3 className="hem-text48 Heading-3">SENTINAM</h3>
-              <span className="hem-text49">
+              <h3 className="hem-text49 Heading-3">SENTINAM</h3>
+              <span className="hem-text50">
                 Storholmsvägen 314 Saltsjö-Boo, Stockholm Sweden
               </span>
-              <span className="hem-text50">(+46) 076-023-01-48</span>
-              <span className="hem-text51">support@sentinam.co</span>
+              <span className="hem-text51">(+46) 076-023-01-48</span>
+              <span className="hem-text52">support@sentinam.co</span>
             </div>
             <div className="hem-links-container">
               <div className="hem-container09">
                 <div className="hem-container10">
-                  <span className="hem-text52">Kategorier</span>
-                  <span className="hem-text53">sortiment</span>
+                  <span className="hem-text53">Kategorier</span>
+                  <span className="hem-text54">sortiment</span>
                 </div>
-                <span className="hem-text54">Recensioner</span>
+                <span className="hem-text55">Recensioner</span>
               </div>
               <div className="hem-container11">
-                <span className="hem-text55">Vårt Företag</span>
-                <Link to="/bestll" className="hem-navlink1">
-                  <span className="hem-text56">Butik</span>
+                <span className="hem-text56">Vårt Företag</span>
+                <span className="hem-text57">
+                  <span className="hem-text58">Butik</span>
                   <br></br>
-                </Link>
-                <span className="hem-text58">
+                </span>
+                <span className="hem-text60">
                   <span>Privacy policy</span>
                   <br></br>
                 </span>
-                <span className="hem-text61">
-                  <span className="hem-text62">Om oss</span>
+                <span className="hem-text63">
+                  <span className="hem-text64">Om oss</span>
                   <br></br>
                 </span>
               </div>
               <div className="hem-container12">
-                <span className="hem-text64">
-                  <span className="hem-text65">Resurser</span>
+                <span className="hem-text66">
+                  <span className="hem-text67">Resurser</span>
                   <br></br>
                 </span>
-                <span className="hem-text67">Kontakta Oss</span>
-                <span className="hem-text68">Gör en beställning</span>
-                <span className="hem-text69">Spåra din leverans</span>
-                <span className="hem-text70">Shipping &amp; Delivery</span>
+                <span className="hem-text69">Kontakta Oss</span>
+                <span className="hem-text70">Gör en beställning</span>
+                <span className="hem-text71">Spåra din leverans</span>
+                <span className="hem-text72">Shipping &amp; Delivery</span>
               </div>
-              <span>Text</span>
             </div>
           </footer>
         </div>
